@@ -1,0 +1,41 @@
+h1 {
+	text-align: center;
+}
+p {
+	margin-left: 20px;
+}
+.gameover {
+	height: 50px;
+	line-height: 50px;
+	width: 200px;
+	margin: 0 auto;
+	position: relative;
+	top: 100px;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bolder;
+	background: gray;
+	display: none;
+}
+.show-gameover {
+	display: block;
+}
+#game {
+	width: 328px;
+	margin: 0 auto;
+}
+.current {
+	border: 1px solid #efefef;
+	background: #efefef;
+}
+.done {
+	border: 1px solid #efefef;
+	background: rgb(192, 190, 190);
+}
+.none, .done, .current {
+	width: 20px;
+	height: 20px;
+	float: left;
+	border: 1px solid #e6e6e6;
+}
