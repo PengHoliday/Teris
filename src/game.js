@@ -1,5 +1,5 @@
 import Shapes from './shapes.js';
-// import './index.css';
+require('style-loader!css-loader!./index.css');
 // 游戏区域数组
 const gameData = [
                 [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
